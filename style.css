@@ -1,0 +1,60 @@
+.bg-atas {
+    background-color: rgb(222, 67, 67);
+
+}
+
+.bg-atas a {
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.container .collapse ul li {
+    margin-left: 20px;
+}
+
+main {
+
+    background-color: rgb(26, 26, 26);
+
+}
+
+main .gambar {
+    padding: 50px;
+    background-color: rgb(26, 26, 26);
+}
+
+
+.container h1 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+footer {
+    display: flex;
+    height: 500px;
+    background-color: rgb(26, 26, 26);
+    background-image: url("/moshidesu/img/nezuko.png");
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: right top;
+    justify-content: end;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    footer {
+        display: flex;
+        height: 200px;
+        background-color: rgb(26, 26, 26);
+        background-image: url("/moshidesu/img/nezuko.png");
+        background-size: 50%;
+        background-position: right top;
+    }
+}
